@@ -1,9 +1,6 @@
 <template>
   <div class="card-container">
-    <Navigation/>
-    <template v-for="index in 4">
-      <Tile :key="index"/>
-    </template>
+    <Context/>
     <div class="more">
       <span>View more</span>
     </div>
@@ -11,8 +8,7 @@
 </template>
 
 <script>
-import Navigation from "./Navigation";
-import Tile from "./Tile";
+import Context from "./Context";
 
 export default {
   name: "Card",
@@ -20,8 +16,7 @@ export default {
     msg: String
   },
   components: {
-    Navigation,
-    Tile
+    Context
   }
 };
 </script>
