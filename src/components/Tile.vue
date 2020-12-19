@@ -23,7 +23,7 @@ export default {
 <style>
 .tile-container {
   height: 280px;
-  width: 271px;
+  min-width: 210px;
   background: #FFFFFF;
   border: 1px solid #E5E5E5;
   box-sizing: border-box;

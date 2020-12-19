@@ -1,25 +1,25 @@
 <template>
   <div id="app">
-    <Card msg="Hello Vue in CodeSandbox!"/>
+    <Card />
   </div>
 </template>
 
 <script>
-import Card from "./components/Card";
+import Card from "../components/Card";
 
 export default {
-  name: "boxoffice",
+  name: "App",
   components: {
-    Card
-  }
+    Card,
+  },
 };
 </script>
 
 <style>
 #app {
   font-family: Muli;
-  background: #F4EFE5;
-  height: 98vh;
+  background: #f4efe5;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

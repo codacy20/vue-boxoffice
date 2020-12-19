@@ -17,19 +17,16 @@ import Context from "./Context";
 
 export default {
   name: "Card",
-  props: {
-    msg: String
-  },
   components: {
     Context
   },
   methods: {
     redirect() {
-      window.open("https://twitter.com/RT_Amir", "_blank");
+      window.open("https://github.com/codacy20/", "_blank");
     },
     redirectToMovieDB() {
       window.open(
-        "https://www.themoviedb.org/?ref=https://twitter.com/RT_Amir",
+        "https://www.themoviedb.org/?ref=https://github.com/codacy20/",
         "_blank"
       );
     }

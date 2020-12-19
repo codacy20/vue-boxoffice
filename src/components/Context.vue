@@ -58,7 +58,7 @@ export default {
   },
   data() {
     const baseUrl = "https://api.themoviedb.org/3/movie/";
-    const apik = "api_key=7e12b66ea24703faef4d9209d109eb56";
+    const apik = `api_key=${process.env.VUE_APP_API_KEY}`;
     const tailUrl = "&language=en-US&page=1";
     return {
       results: null,
